@@ -1,0 +1,20 @@
+.results {
+   background-color: #f3f7f4;
+   padding: 200px 170px 170px;
+   text-align: center;
+
+   &__numbers {
+      display: flex;
+      justify-content: space-between;
+
+      &-block {
+         width: 220px;
+
+         .number {
+            font-size: 60px;
+            margin: 70px auto 20px;
+            color: #283337;
+         }
+      }
+   }
+}

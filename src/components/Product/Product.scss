@@ -1,0 +1,41 @@
+.product {
+   display: flex;
+   padding: 70px 80px;
+
+   &__text {
+      margin-right: 200px;
+
+      & h1 {
+         font-weight: 400;
+         margin-top: 0;
+      }
+
+      & p {
+         margin-bottom: 55px;
+      }
+
+      & b {
+         text-decoration: underline;
+      }
+   }
+
+   &__info {
+      background-color: #f3f7f4;
+      padding: 80px;
+
+      & h2 {
+         font-weight: 400;
+         margin-bottom: 50px;
+      }
+
+      &-link {
+         text-align: right;
+         margin-top: 38px;
+      }
+
+      & a {
+         font-weight: 700;
+         color: #283337;
+      }
+   }
+}

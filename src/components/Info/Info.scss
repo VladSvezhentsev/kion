@@ -1,0 +1,66 @@
+.info {
+   &__difference {
+      display: flex;
+      padding: 140px 20px;
+
+      &-text {
+         margin-right: 200px;
+
+         .diff {
+            font-size: 14px;
+            text-transform: uppercase;
+         }
+
+         li {
+            padding-top: 12px;
+         }
+
+         a {
+            margin-top: 24px;
+            font-weight: 700;
+            color: #283337;
+         }
+      }
+
+      &-video {
+         position: relative;
+
+         .kion {
+            margin-top: 150px;
+         }
+         .play {
+            position: absolute;
+            top: 268px;
+            right: 258px;
+            transition: all 0.2s;
+            cursor: pointer;
+
+            &:hover {
+               transform: scale(1.1);
+            }
+         }
+      }
+   }
+
+   &__built {
+      text-align: center;
+
+      &-comp {
+         display: flex;
+         justify-content: space-between;
+         padding: 85px 100px;
+         margin-bottom: 50px;
+      }
+   }
+
+   &__start {
+      text-align: center;
+      padding: 150px 0;
+      background-color: #f3f7f4;
+
+      p {
+         font-size: 33px;
+         margin: 48px 0;
+      }
+   }
+}

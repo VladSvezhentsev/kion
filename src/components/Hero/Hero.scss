@@ -1,0 +1,59 @@
+.hero {
+   background-color: #f3f7f4;
+
+   &__main {
+      display: flex;
+      padding: 180px 105px;
+
+      &-text {
+         width: 630px;
+         margin: 60px 100px 0 0;
+
+         & h1 {
+            font-weight: 400;
+            margin-top: 60px;
+         }
+
+         & p {
+            margin-bottom: 26px;
+         }
+      }
+
+      &-images {
+         position: relative;
+         cursor: pointer;
+         & img {
+            position: absolute;
+         }
+         .relative {
+            position: relative;
+         }
+         .image1 {
+            left: -105px;
+            top: 184px;
+            transition: 0.4s;
+         }
+         .image2 {
+            right: -115px;
+            top: 150px;
+            transition: 0.4s;
+         }
+         .image3 {
+            right: 100px;
+            bottom: -70px;
+            transition: 0.4s;
+         }
+         .image1:hover,
+         .image2:hover,
+         .image3:hover {
+            transform: scale(1.2);
+         }
+      }
+   }
+
+   &__company {
+      display: flex;
+      justify-content: space-between;
+      padding: 100px;
+   }
+}
